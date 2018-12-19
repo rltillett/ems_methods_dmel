@@ -1,0 +1,134 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: H22_S4_R2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.5.0
+Cutadapt version: 1.18
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 36 bp
+Removing Ns from the start and end of reads
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 --trim-n -a AGATCGGAAGAGC H22_S4_R2.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 967.70 s (26 us/read; 2.28 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              36,836,717
+Reads with adapters:                 6,123,247 (16.6%)
+Reads written (passing filters):    36,836,717 (100.0%)
+
+Total basepairs processed: 2,782,438,534 bp
+Quality-trimmed:              33,966,176 bp (1.2%)
+Total written (filtered):  2,740,827,898 bp (98.5%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 6123247 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 41.4%
+  C: 21.9%
+  G: 14.6%
+  T: 22.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	5247014	9209179.2	0	5247014
+2	495882	2302294.8	0	495882
+3	293151	575573.7	0	293151
+4	66418	143893.4	0	66418
+5	12381	35973.4	0	12381
+6	3016	8993.3	0	3016
+7	354	2248.3	0	354
+8	90	562.1	0	90
+9	193	140.5	0	55 138
+10	348	35.1	1	20 328
+11	425	8.8	1	40 385
+12	181	2.2	1	23 158
+13	80	0.5	1	8 72
+14	89	0.5	1	10 79
+15	108	0.5	1	7 101
+16	103	0.5	1	7 96
+17	82	0.5	1	11 71
+18	125	0.5	1	12 113
+19	106	0.5	1	10 96
+20	119	0.5	1	11 108
+21	107	0.5	1	17 90
+22	77	0.5	1	8 69
+23	98	0.5	1	10 88
+24	115	0.5	1	18 97
+25	84	0.5	1	15 69
+26	118	0.5	1	25 93
+27	144	0.5	1	28 116
+28	79	0.5	1	8 71
+29	97	0.5	1	12 85
+30	67	0.5	1	5 62
+31	64	0.5	1	8 56
+32	93	0.5	1	14 79
+33	107	0.5	1	12 95
+34	61	0.5	1	8 53
+35	48	0.5	1	6 42
+36	77	0.5	1	9 68
+37	70	0.5	1	4 66
+38	51	0.5	1	3 48
+39	50	0.5	1	7 43
+40	43	0.5	1	4 39
+41	44	0.5	1	2 42
+42	56	0.5	1	7 49
+43	48	0.5	1	3 45
+44	47	0.5	1	4 43
+45	49	0.5	1	3 46
+46	61	0.5	1	3 58
+47	35	0.5	1	2 33
+48	46	0.5	1	2 44
+49	44	0.5	1	3 41
+50	35	0.5	1	2 33
+51	46	0.5	1	2 44
+52	35	0.5	1	1 34
+53	38	0.5	1	1 37
+54	30	0.5	1	1 29
+55	32	0.5	1	0 32
+56	34	0.5	1	0 34
+57	27	0.5	1	0 27
+58	38	0.5	1	1 37
+59	33	0.5	1	0 33
+60	33	0.5	1	0 33
+61	34	0.5	1	1 33
+62	26	0.5	1	0 26
+63	30	0.5	1	0 30
+64	36	0.5	1	0 36
+65	45	0.5	1	0 45
+66	34	0.5	1	0 34
+67	35	0.5	1	0 35
+68	36	0.5	1	0 36
+69	31	0.5	1	0 31
+70	36	0.5	1	0 36
+71	24	0.5	1	0 24
+72	35	0.5	1	0 35
+73	26	0.5	1	0 26
+74	15	0.5	1	0 15
+75	35	0.5	1	0 35
+76	43	0.5	1	0 43
+
+
+RUN STATISTICS FOR INPUT FILE: H22_S4_R2.fastq.gz
+=============================================
+36836717 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 36836717
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (36 bp): 397844 (1.08%)

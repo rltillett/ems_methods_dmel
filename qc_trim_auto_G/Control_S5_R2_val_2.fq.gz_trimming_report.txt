@@ -1,0 +1,133 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: Control_S5_R2_val_2.fq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.5.0
+Cutadapt version: 1.18
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'GGGGGGGGGGGGGGGGGG' ()
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 36 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a GGGGGGGGGGGGGGGGGG Control_S5_R2_val_2.fq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 590.82 s (23 us/read; 2.62 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              25,787,116
+Reads with adapters:                 2,072,820 (8.0%)
+Reads written (passing filters):    25,787,116 (100.0%)
+
+Total basepairs processed: 1,918,735,737 bp
+Quality-trimmed:               2,918,107 bp (0.2%)
+Total written (filtered):  1,886,678,712 bp (98.3%)
+
+=== Adapter 1 ===
+
+Sequence: GGGGGGGGGGGGGGGGGG; Type: regular 3'; Length: 18; Trimmed: 2072820 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-18 bp: 1
+
+Bases preceding removed adapters:
+  A: 25.2%
+  C: 19.3%
+  G: 0.0%
+  T: 34.3%
+  none/other: 21.2%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	1255506	6446779.0	0	1255506
+2	262455	1611694.8	0	262455
+3	58817	402923.7	0	58817
+4	15268	100730.9	0	15268
+5	4443	25182.7	0	4443
+6	1500	6295.7	0	1500
+7	792	1573.9	0	792
+8	433	393.5	0	433
+9	361	98.4	0	361
+10	1169	24.6	1	294 875
+11	960	6.1	1	307 653
+12	736	1.5	1	200 536
+13	598	0.4	1	215 383
+14	510	0.1	1	182 328
+15	379	0.0	1	131 248
+16	372	0.0	1	141 231
+17	432	0.0	1	251 181
+18	452	0.0	1	270 182
+19	434	0.0	1	296 138
+20	384	0.0	1	283 101
+21	424	0.0	1	310 114
+22	438	0.0	1	317 121
+23	466	0.0	1	370 96
+24	517	0.0	1	410 107
+25	447	0.0	1	350 97
+26	401	0.0	1	320 81
+27	410	0.0	1	329 81
+28	444	0.0	1	358 86
+29	401	0.0	1	312 89
+30	464	0.0	1	396 68
+31	519	0.0	1	437 82
+32	563	0.0	1	484 79
+33	721	0.0	1	629 92
+34	1774	0.0	1	1648 126
+35	3750	0.0	1	3628 122
+36	9774	0.0	1	9588 186
+37	9191	0.0	1	9010 181
+38	9229	0.0	1	9108 121
+39	9290	0.0	1	9127 163
+40	9262	0.0	1	9139 123
+41	9219	0.0	1	9096 123
+42	9274	0.0	1	9176 98
+43	9968	0.0	1	9863 105
+44	9155	0.0	1	9047 108
+45	9152	0.0	1	9043 109
+46	9236	0.0	1	9138 98
+47	10132	0.0	1	10050 82
+48	10689	0.0	1	10591 98
+49	10676	0.0	1	10578 98
+50	11156	0.0	1	11071 85
+51	11886	0.0	1	11804 82
+52	12200	0.0	1	12132 68
+53	11895	0.0	1	11807 88
+54	11894	0.0	1	11815 79
+55	12508	0.0	1	12425 83
+56	12076	0.0	1	11983 93
+57	11325	0.0	1	11244 81
+58	11299	0.0	1	11195 104
+59	10088	0.0	1	9996 92
+60	9113	0.0	1	9016 97
+61	8153	0.0	1	8041 112
+62	6422	0.0	1	6326 96
+63	5543	0.0	1	5428 115
+64	4745	0.0	1	4605 140
+65	4156	0.0	1	4004 152
+66	3551	0.0	1	3386 165
+67	3589	0.0	1	3326 263
+68	3930	0.0	1	3525 405
+69	4278	0.0	1	3766 512
+70	5477	0.0	1	4857 620
+71	7318	0.0	1	6477 841
+72	11064	0.0	1	10024 1040
+73	19339	0.0	1	17929 1410
+74	32193	0.0	1	30617 1576
+75	72538	0.0	1	70289 2249
+76	3097	0.0	1	2572 525
+
+
+RUN STATISTICS FOR INPUT FILE: Control_S5_R2_val_2.fq.gz
+=============================================
+25787116 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 25787116
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (36 bp): 497044 (1.93%)

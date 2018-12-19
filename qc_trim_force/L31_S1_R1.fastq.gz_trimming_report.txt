@@ -1,0 +1,131 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: L31_S1_R1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.5.0
+Cutadapt version: 1.18
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 36 bp
+Removing Ns from the start and end of reads
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 --trim-n -a AGATCGGAAGAGC L31_S1_R1.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 913.15 s (25 us/read; 2.36 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              35,870,417
+Reads with adapters:                 6,024,833 (16.8%)
+Reads written (passing filters):    35,870,417 (100.0%)
+
+Total basepairs processed: 2,709,438,194 bp
+Quality-trimmed:              20,213,047 bp (0.7%)
+Total written (filtered):  2,677,856,549 bp (98.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 6024833 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 40.1%
+  C: 22.2%
+  G: 14.0%
+  T: 22.8%
+  none/other: 0.9%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	5122603	8967604.2	0	5122603
+2	447432	2241901.1	0	447432
+3	321096	560475.3	0	321096
+4	61898	140118.8	0	61898
+5	11223	35029.7	0	11223
+6	2756	8757.4	0	2756
+7	324	2189.4	0	324
+8	39	547.3	0	39
+9	167	136.8	0	28 139
+10	259	34.2	1	4 255
+11	216	8.6	1	10 206
+12	90	2.1	1	8 82
+13	39	0.5	1	3 36
+14	59	0.5	1	1 58
+15	49	0.5	1	2 47
+16	46	0.5	1	8 38
+17	64	0.5	1	4 60
+18	54	0.5	1	5 49
+19	57	0.5	1	0 57
+20	44	0.5	1	0 44
+21	66	0.5	1	6 60
+22	51	0.5	1	0 51
+23	56	0.5	1	1 55
+24	54	0.5	1	4 50
+25	57	0.5	1	6 51
+26	48	0.5	1	7 41
+27	62	0.5	1	2 60
+28	67	0.5	1	10 57
+29	67	0.5	1	4 63
+30	52	0.5	1	0 52
+31	52	0.5	1	3 49
+32	64	0.5	1	5 59
+33	57	0.5	1	3 54
+34	56	0.5	1	1 55
+35	51	0.5	1	3 48
+36	52	0.5	1	0 52
+37	43	0.5	1	1 42
+38	99	0.5	1	2 97
+39	86	0.5	1	5 81
+40	77	0.5	1	3 74
+41	89	0.5	1	4 85
+42	40	0.5	1	0 40
+43	55	0.5	1	1 54
+44	54	0.5	1	1 53
+45	85	0.5	1	2 83
+46	84	0.5	1	3 81
+47	59	0.5	1	0 59
+48	116	0.5	1	0 116
+49	53	0.5	1	0 53
+50	53	0.5	1	0 53
+51	94	0.5	1	1 93
+52	163	0.5	1	0 163
+53	85	0.5	1	1 84
+54	68	0.5	1	0 68
+55	38	0.5	1	0 38
+56	130	0.5	1	1 129
+57	40	0.5	1	0 40
+58	46	0.5	1	0 46
+59	53	0.5	1	0 53
+60	48	0.5	1	0 48
+61	44	0.5	1	1 43
+62	65	0.5	1	0 65
+63	65	0.5	1	0 65
+64	39	0.5	1	0 39
+65	50	0.5	1	0 50
+66	97	0.5	1	0 97
+67	231	0.5	1	0 231
+68	854	0.5	1	1 853
+69	5773	0.5	1	0 5773
+70	6146	0.5	1	0 6146
+71	5705	0.5	1	0 5705
+72	4929	0.5	1	0 4929
+73	1875	0.5	1	2 1873
+74	823	0.5	1	0 823
+75	1418	0.5	1	0 1418
+76	25534	0.5	1	1 25533
+
+
+RUN STATISTICS FOR INPUT FILE: L31_S1_R1.fastq.gz
+=============================================
+35870417 sequences processed in total
+

@@ -1,0 +1,11 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	H22_S4_R2	/home/rltillett/projects/projects_bieser/fastq_joined/H22_S4_R2_fastqc.zip
+FastQC	all_sections	H22_S4_R1	/home/rltillett/projects/projects_bieser/fastq_joined/H22_S4_R1_fastqc.zip
+FastQC	all_sections	Control_S5_R2	/home/rltillett/projects/projects_bieser/fastq_joined/Control_S5_R2_fastqc.zip
+FastQC	all_sections	Control_S5_R1	/home/rltillett/projects/projects_bieser/fastq_joined/Control_S5_R1_fastqc.zip
+FastQC	all_sections	L31_S1_R2	/home/rltillett/projects/projects_bieser/fastq_joined/L31_S1_R2_fastqc.zip
+FastQC	all_sections	A44_S2_R1	/home/rltillett/projects/projects_bieser/fastq_joined/A44_S2_R1_fastqc.zip
+FastQC	all_sections	A44_S2_R2	/home/rltillett/projects/projects_bieser/fastq_joined/A44_S2_R2_fastqc.zip
+FastQC	all_sections	cos2_S3_R1	/home/rltillett/projects/projects_bieser/fastq_joined/cos2_S3_R1_fastqc.zip
+FastQC	all_sections	cos2_S3_R2	/home/rltillett/projects/projects_bieser/fastq_joined/cos2_S3_R2_fastqc.zip
+FastQC	all_sections	L31_S1_R1	/home/rltillett/projects/projects_bieser/fastq_joined/L31_S1_R1_fastqc.zip

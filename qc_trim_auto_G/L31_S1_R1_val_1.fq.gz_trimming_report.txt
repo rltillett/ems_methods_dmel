@@ -1,0 +1,130 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: L31_S1_R1_val_1.fq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.5.0
+Cutadapt version: 1.18
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'GGGGGGGGGGGGGGGGGG' ()
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 36 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a GGGGGGGGGGGGGGGGGG L31_S1_R1_val_1.fq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 862.67 s (24 us/read; 2.47 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              35,562,442
+Reads with adapters:                 6,539,152 (18.4%)
+Reads written (passing filters):    35,562,442 (100.0%)
+
+Total basepairs processed: 2,649,611,020 bp
+Quality-trimmed:               3,930,199 bp (0.1%)
+Total written (filtered):  2,633,673,087 bp (99.4%)
+
+=== Adapter 1 ===
+
+Sequence: GGGGGGGGGGGGGGGGGG; Type: regular 3'; Length: 18; Trimmed: 6539152 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-18 bp: 1
+
+Bases preceding removed adapters:
+  A: 32.5%
+  C: 43.5%
+  G: 0.0%
+  T: 23.8%
+  none/other: 0.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4558522	8890610.5	0	4558522
+2	1358486	2222652.6	0	1358486
+3	429723	555663.2	0	429723
+4	93653	138915.8	0	93653
+5	26463	34728.9	0	26463
+6	9244	8682.2	0	9244
+7	2982	2170.6	0	2982
+8	702	542.6	0	702
+9	399	135.7	0	399
+10	2167	33.9	1	329 1838
+11	1306	8.5	1	254 1052
+12	970	2.1	1	241 729
+13	773	0.5	1	190 583
+14	576	0.1	1	160 416
+15	470	0.0	1	103 367
+16	362	0.0	1	92 270
+17	372	0.0	1	177 195
+18	316	0.0	1	152 164
+19	276	0.0	1	157 119
+20	220	0.0	1	140 80
+21	200	0.0	1	118 82
+22	179	0.0	1	113 66
+23	157	0.0	1	97 60
+24	153	0.0	1	107 46
+25	168	0.0	1	105 63
+26	160	0.0	1	105 55
+27	133	0.0	1	85 48
+28	161	0.0	1	108 53
+29	144	0.0	1	105 39
+30	125	0.0	1	83 42
+31	126	0.0	1	80 46
+32	125	0.0	1	80 45
+33	147	0.0	1	102 45
+34	127	0.0	1	80 47
+35	3149	0.0	1	3103 46
+36	2770	0.0	1	2730 40
+37	2822	0.0	1	2784 38
+38	2124	0.0	1	2105 19
+39	2274	0.0	1	2239 35
+40	2025	0.0	1	1997 28
+41	1715	0.0	1	1689 26
+42	1239	0.0	1	1217 22
+43	1462	0.0	1	1435 27
+44	1272	0.0	1	1255 17
+45	1058	0.0	1	1033 25
+46	846	0.0	1	822 24
+47	751	0.0	1	734 17
+48	564	0.0	1	536 28
+49	508	0.0	1	477 31
+50	441	0.0	1	425 16
+51	441	0.0	1	419 22
+52	406	0.0	1	385 21
+53	434	0.0	1	413 21
+54	378	0.0	1	356 22
+55	379	0.0	1	357 22
+56	312	0.0	1	295 17
+57	295	0.0	1	284 11
+58	279	0.0	1	260 19
+59	263	0.0	1	251 12
+60	244	0.0	1	223 21
+61	257	0.0	1	236 21
+62	283	0.0	1	260 23
+63	243	0.0	1	228 15
+64	263	0.0	1	244 19
+65	242	0.0	1	226 16
+66	210	0.0	1	199 11
+67	192	0.0	1	184 8
+68	233	0.0	1	217 16
+69	323	0.0	1	297 26
+70	427	0.0	1	402 25
+71	2347	0.0	1	2324 23
+72	1780	0.0	1	1735 45
+73	2185	0.0	1	2128 57
+74	3493	0.0	1	3370 123
+75	3787	0.0	1	3740 47
+76	4349	0.0	1	4342 7
+
+
+RUN STATISTICS FOR INPUT FILE: L31_S1_R1_val_1.fq.gz
+=============================================
+35562442 sequences processed in total
+

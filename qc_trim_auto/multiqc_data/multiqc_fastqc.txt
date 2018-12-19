@@ -1,0 +1,11 @@
+Sample	adapter_content	Sequences flagged as poor quality	sequence_duplication_levels	avg_sequence_length	Encoding	per_base_sequence_quality	sequence_length_distribution	Sequence length	File type	basic_statistics	per_sequence_gc_content	Total Sequences	per_base_n_content	per_base_sequence_content	overrepresented_sequences	%GC	total_deduplicated_percentage	Filename	per_tile_sequence_quality	per_sequence_quality_scores
+A44_S2_R1_val_1	pass	0.0	pass	74.5451544682	Sanger / Illumina 1.9	pass	warn	36-76	Conventional base calls	pass	warn	19092662.0	pass	fail	warn	39.0	89.3595448704	A44_S2_R1_val_1.fq.gz	pass	pass
+A44_S2_R2_val_2	pass	0.0	pass	74.5816536741	Sanger / Illumina 1.9	pass	warn	36-76	Conventional base calls	pass	warn	19092662.0	pass	fail	warn	39.0	89.2274336452	A44_S2_R2_val_2.fq.gz	pass	pass
+Control_S5_R1_val_1	pass	0.0	pass	74.1268070846	Sanger / Illumina 1.9	pass	warn	36-76	Conventional base calls	pass	warn	25787116.0	pass	fail	pass	40.0	87.1150555118	Control_S5_R1_val_1.fq.gz	pass	pass
+Control_S5_R2_val_2	pass	0.0	pass	74.4067594453	Sanger / Illumina 1.9	pass	warn	36-76	Conventional base calls	pass	warn	25787116.0	pass	fail	warn	39.0	86.6172734162	Control_S5_R2_val_2.fq.gz	pass	pass
+H22_S4_R1_val_1	pass	0.0	pass	74.9136725771	Sanger / Illumina 1.9	pass	warn	36-76	Conventional base calls	pass	warn	36438873.0	pass	fail	pass	40.0	86.9168575606	H22_S4_R1_val_1.fq.gz	pass	pass
+H22_S4_R2_val_2	pass	0.0	pass	74.8420266181	Sanger / Illumina 1.9	pass	warn	36-76	Conventional base calls	pass	pass	36438873.0	pass	fail	warn	40.0	87.7065049261	H22_S4_R2_val_2.fq.gz	pass	pass
+L31_S1_R1_val_1	pass	0.0	pass	74.5058795456	Sanger / Illumina 1.9	pass	warn	36-76	Conventional base calls	pass	pass	35562442.0	pass	fail	pass	39.0	87.2714818862	L31_S1_R1_val_1.fq.gz	pass	pass
+L31_S1_R2_val_2	pass	0.0	pass	74.7605304776	Sanger / Illumina 1.9	pass	warn	36-76	Conventional base calls	pass	pass	35562442.0	pass	fail	warn	39.0	87.5769744435	L31_S1_R2_val_2.fq.gz	pass	pass
+cos2_S3_R1_val_1	pass	0.0	pass	74.9438906115	Sanger / Illumina 1.9	pass	warn	36-76	Conventional base calls	pass	pass	33736707.0	pass	fail	pass	39.0	85.9796797795	cos2_S3_R1_val_1.fq.gz	pass	pass
+cos2_S3_R2_val_2	pass	0.0	pass	74.8107646962	Sanger / Illumina 1.9	pass	warn	36-76	Conventional base calls	pass	pass	33736707.0	pass	fail	warn	39.0	87.1562995027	cos2_S3_R2_val_2.fq.gz	pass	pass

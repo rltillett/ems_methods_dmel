@@ -1,0 +1,130 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: H22_S4_R1_val_1.fq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.5.0
+Cutadapt version: 1.18
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'GGGGGGGGGGGGGGGGGG' ()
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 36 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a GGGGGGGGGGGGGGGGGG H22_S4_R1_val_1.fq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 856.60 s (24 us/read; 2.55 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              36,438,873
+Reads with adapters:                 7,993,978 (21.9%)
+Reads written (passing filters):    36,438,873 (100.0%)
+
+Total basepairs processed: 2,729,769,801 bp
+Quality-trimmed:               2,170,701 bp (0.1%)
+Total written (filtered):  2,711,330,582 bp (99.3%)
+
+=== Adapter 1 ===
+
+Sequence: GGGGGGGGGGGGGGGGGG; Type: regular 3'; Length: 18; Trimmed: 7993978 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-18 bp: 1
+
+Bases preceding removed adapters:
+  A: 11.9%
+  C: 32.8%
+  G: 0.0%
+  T: 55.2%
+  none/other: 0.2%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	5470085	9109718.2	0	5470085
+2	1905273	2277429.6	0	1905273
+3	390933	569357.4	0	390933
+4	86652	142339.3	0	86652
+5	23342	35584.8	0	23342
+6	6309	8896.2	0	6309
+7	1638	2224.1	0	1638
+8	523	556.0	0	523
+9	375	139.0	0	375
+10	1957	34.8	1	291 1666
+11	1232	8.7	1	213 1019
+12	880	2.2	1	215 665
+13	679	0.5	1	186 493
+14	580	0.1	1	179 401
+15	523	0.0	1	194 329
+16	464	0.0	1	195 269
+17	525	0.0	1	310 215
+18	457	0.0	1	296 161
+19	475	0.0	1	359 116
+20	480	0.0	1	382 98
+21	524	0.0	1	431 93
+22	479	0.0	1	411 68
+23	596	0.0	1	519 77
+24	565	0.0	1	494 71
+25	562	0.0	1	492 70
+26	427	0.0	1	360 67
+27	379	0.0	1	323 56
+28	439	0.0	1	387 52
+29	418	0.0	1	373 45
+30	367	0.0	1	320 47
+31	327	0.0	1	278 49
+32	316	0.0	1	264 52
+33	266	0.0	1	214 52
+34	221	0.0	1	179 42
+35	4866	0.0	1	4810 56
+36	4449	0.0	1	4400 49
+37	5346	0.0	1	5303 43
+38	4487	0.0	1	4443 44
+39	4514	0.0	1	4483 31
+40	4334	0.0	1	4306 28
+41	3957	0.0	1	3934 23
+42	2988	0.0	1	2959 29
+43	3589	0.0	1	3549 40
+44	3014	0.0	1	2979 35
+45	2883	0.0	1	2856 27
+46	2316	0.0	1	2287 29
+47	1850	0.0	1	1825 25
+48	1596	0.0	1	1572 24
+49	1406	0.0	1	1387 19
+50	1152	0.0	1	1138 14
+51	1232	0.0	1	1211 21
+52	1283	0.0	1	1262 21
+53	1201	0.0	1	1177 24
+54	1160	0.0	1	1143 17
+55	1085	0.0	1	1061 24
+56	868	0.0	1	850 18
+57	822	0.0	1	808 14
+58	733	0.0	1	713 20
+59	665	0.0	1	645 20
+60	599	0.0	1	576 23
+61	603	0.0	1	588 15
+62	649	0.0	1	630 19
+63	767	0.0	1	747 20
+64	620	0.0	1	605 15
+65	561	0.0	1	547 14
+66	444	0.0	1	424 20
+67	394	0.0	1	380 14
+68	470	0.0	1	448 22
+69	589	0.0	1	550 39
+70	1054	0.0	1	1006 48
+71	2669	0.0	1	2591 78
+72	2202	0.0	1	2109 93
+73	2452	0.0	1	2375 77
+74	2379	0.0	1	2335 44
+75	8564	0.0	1	8534 30
+76	7898	0.0	1	7873 25
+
+
+RUN STATISTICS FOR INPUT FILE: H22_S4_R1_val_1.fq.gz
+=============================================
+36438873 sequences processed in total
+

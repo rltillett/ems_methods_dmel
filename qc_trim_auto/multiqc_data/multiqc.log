@@ -1,0 +1,162 @@
+[2018-12-19 02:40:26,543] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/rltillett/miniconda3/envs/ems_env/lib/python2.7/site-packages/multiqc_config.yaml
+[2018-12-19 02:40:26,543] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/rltillett/.multiqc_config.yaml
+[2018-12-19 02:40:26,543] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2018-12-19 02:40:26,543] multiqc                                            [DEBUG  ]  Command used: /home/rltillett/miniconda3/envs/ems_env/bin/multiqc ./
+[2018-12-19 02:40:27,866] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.6
+[2018-12-19 02:40:27,867] multiqc                                            [INFO   ]  This is MultiQC v1.6
+[2018-12-19 02:40:27,867] multiqc                                            [DEBUG  ]  Command     : /home/rltillett/miniconda3/envs/ems_env/bin/multiqc ./
+[2018-12-19 02:40:27,867] multiqc                                            [DEBUG  ]  Working dir : /home/rltillett/projects/projects_bieser/fastq_joined
+[2018-12-19 02:40:27,867] multiqc                                            [INFO   ]  Template    : default
+[2018-12-19 02:40:27,867] multiqc                                            [INFO   ]  Searching './'
+[2018-12-19 02:40:27,868] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, qualimap, preseq, quast, qorts, rna_seqc, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, dedup, picard, prokka, samblaster, samtools, bamtools, jellyfish, vcftools, longranger, bbmap, bismark, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, clusterflow, bcl2fastq, interop
+[2018-12-19 02:40:27,868] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpi7EaHS
+[2018-12-19 02:40:27,997] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: A44_S2_R2_val_2.fq.gz
+[2018-12-19 02:40:27,997] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: cos2_S3_R2_val_2_fastqc.html
+[2018-12-19 02:40:27,997] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control_S5_R1.fastq.gz
+[2018-12-19 02:40:27,997] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L31_S1_R1_val_1.fq.gz
+[2018-12-19 02:40:28,011] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L31_S1_R2.fastq.gz
+[2018-12-19 02:40:28,024] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L31_S1_R2_val_2_fastqc.html
+[2018-12-19 02:40:28,035] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control_S5_R2.fastq.gz
+[2018-12-19 02:40:28,035] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: H22_S4_R1_val_1_fastqc.html
+[2018-12-19 02:40:28,035] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: H22_S4_R1_val_1.fq.gz
+[2018-12-19 02:40:28,036] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control_S5_R1_val_1.fq.gz
+[2018-12-19 02:40:28,036] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: cos2_S3_R2_val_2.fq.gz
+[2018-12-19 02:40:28,036] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L31_S1_R2_val_2.fq.gz
+[2018-12-19 02:40:28,036] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: A44_S2_R2_val_2_fastqc.html
+[2018-12-19 02:40:28,037] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: H22_S4_R2_val_2.fq.gz
+[2018-12-19 02:40:28,037] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control_S5_R2_val_2.fq.gz
+[2018-12-19 02:40:28,037] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: cos2_S3_R1_val_1.fq.gz
+[2018-12-19 02:40:28,037] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: A44_S2_R2.fastq.gz
+[2018-12-19 02:40:28,037] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: H22_S4_R1.fastq.gz
+[2018-12-19 02:40:28,037] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control_S5_R2_val_2_fastqc.html
+[2018-12-19 02:40:28,038] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: cos2_S3_R1_val_1_fastqc.html
+[2018-12-19 02:40:28,038] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L31_S1_R1_val_1_fastqc.html
+[2018-12-19 02:40:28,038] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: cos2_S3_R2.fastq.gz
+[2018-12-19 02:40:28,038] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: A44_S2_R1.fastq.gz
+[2018-12-19 02:40:28,050] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: H22_S4_R2_val_2_fastqc.html
+[2018-12-19 02:40:28,050] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: cos2_S3_R1.fastq.gz
+[2018-12-19 02:40:28,050] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: H22_S4_R2.fastq.gz
+[2018-12-19 02:40:28,050] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control_S5_R1_val_1_fastqc.html
+[2018-12-19 02:40:28,050] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L31_S1_R1.fastq.gz
+[2018-12-19 02:40:28,051] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: A44_S2_R1_val_1.fq.gz
+[2018-12-19 02:40:28,061] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: A44_S2_R1_val_1_fastqc.html
+[2018-12-19 02:40:28,105] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: cos2_S3_R1_trimmed.fq.gz
+[2018-12-19 02:40:28,116] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: A44_S2_R2_val_2.fq.gz
+[2018-12-19 02:40:28,116] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control_S5_R1.fastq.gz
+[2018-12-19 02:40:28,116] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L31_S1_R2_trimmed.fq.gz
+[2018-12-19 02:40:28,117] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: cos2_S3_R2_trimmed.fq.gz
+[2018-12-19 02:40:28,117] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L31_S1_R1_trimmed.fq.gz
+[2018-12-19 02:40:28,117] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L31_S1_R1_val_1.fq.gz
+[2018-12-19 02:40:28,128] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L31_S1_R2.fastq.gz
+[2018-12-19 02:40:28,139] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control_S5_R2_trimmed.fq.gz
+[2018-12-19 02:40:28,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control_S5_R2.fastq.gz
+[2018-12-19 02:40:28,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: H22_S4_R1_val_1.fq.gz
+[2018-12-19 02:40:28,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control_S5_R1_val_1.fq.gz
+[2018-12-19 02:40:28,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: H22_S4_R1_trimmed.fq.gz
+[2018-12-19 02:40:28,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: cos2_S3_R2_val_2.fq.gz
+[2018-12-19 02:40:28,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L31_S1_R2_val_2.fq.gz
+[2018-12-19 02:40:28,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: A44_S2_R2_val_2_fastqc.html
+[2018-12-19 02:40:28,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: H22_S4_R2_val_2.fq.gz
+[2018-12-19 02:40:28,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control_S5_R2_val_2.fq.gz
+[2018-12-19 02:40:28,151] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: cos2_S3_R1_val_1.fq.gz
+[2018-12-19 02:40:28,151] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: A44_S2_R2.fastq.gz
+[2018-12-19 02:40:28,151] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: H22_S4_R1.fastq.gz
+[2018-12-19 02:40:28,151] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: H22_S4_R2_trimmed.fq.gz
+[2018-12-19 02:40:28,151] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: cos2_S3_R2.fastq.gz
+[2018-12-19 02:40:28,151] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: A44_S2_R1.fastq.gz
+[2018-12-19 02:40:28,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control_S5_R1_trimmed.fq.gz
+[2018-12-19 02:40:28,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: cos2_S3_R1.fastq.gz
+[2018-12-19 02:40:28,162] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: H22_S4_R2.fastq.gz
+[2018-12-19 02:40:28,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control_S5_R1_val_1_fastqc.html
+[2018-12-19 02:40:28,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: L31_S1_R1.fastq.gz
+[2018-12-19 02:40:28,163] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: A44_S2_R1_val_1.fq.gz
+[2018-12-19 02:40:28,174] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: A44_S2_R1_val_1_fastqc.html
+[2018-12-19 02:40:28,378] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2018-12-19 02:40:28,382] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2018-12-19 02:40:28,385] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2018-12-19 02:40:28,387] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2018-12-19 02:40:28,391] multiqc                                            [DEBUG  ]  No samples found: qualimap
+[2018-12-19 02:40:28,394] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2018-12-19 02:40:28,397] multiqc                                            [DEBUG  ]  No samples found: quast
+[2018-12-19 02:40:28,400] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2018-12-19 02:40:28,403] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2018-12-19 02:40:28,406] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2018-12-19 02:40:28,409] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2018-12-19 02:40:28,412] multiqc                                            [DEBUG  ]  No samples found: busco
+[2018-12-19 02:40:28,415] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2018-12-19 02:40:28,418] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2018-12-19 02:40:28,421] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2018-12-19 02:40:28,425] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2018-12-19 02:40:28,428] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2018-12-19 02:40:28,431] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2018-12-19 02:40:28,434] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2018-12-19 02:40:28,437] multiqc                                            [DEBUG  ]  No samples found: happy
+[2018-12-19 02:40:28,440] multiqc                                            [DEBUG  ]  No samples found: homer
+[2018-12-19 02:40:28,443] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2018-12-19 02:40:28,446] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2018-12-19 02:40:28,449] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2018-12-19 02:40:28,452] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2018-12-19 02:40:28,455] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2018-12-19 02:40:28,458] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2018-12-19 02:40:28,461] multiqc                                            [DEBUG  ]  No samples found: featureCounts
+[2018-12-19 02:40:28,464] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2018-12-19 02:40:28,469] multiqc                                            [DEBUG  ]  No samples found: picard
+[2018-12-19 02:40:28,472] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2018-12-19 02:40:28,475] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2018-12-19 02:40:28,478] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2018-12-19 02:40:28,481] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2018-12-19 02:40:28,484] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2018-12-19 02:40:28,487] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2018-12-19 02:40:28,490] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2018-12-19 02:40:28,494] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2018-12-19 02:40:28,497] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2018-12-19 02:40:28,500] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2018-12-19 02:40:28,503] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2018-12-19 02:40:28,506] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2018-12-19 02:40:28,509] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2018-12-19 02:40:28,512] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2018-12-19 02:40:28,515] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2018-12-19 02:40:28,518] multiqc                                            [DEBUG  ]  No samples found: star
+[2018-12-19 02:40:28,521] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2018-12-19 02:40:28,524] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2018-12-19 02:40:28,527] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2018-12-19 02:40:28,530] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2018-12-19 02:40:28,532] multiqc                                            [DEBUG  ]  No samples found: kat
+[2018-12-19 02:40:28,535] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2018-12-19 02:40:28,538] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2018-12-19 02:40:28,541] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2018-12-19 02:40:28,559] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: H22_S4_R1
+[2018-12-19 02:40:28,561] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: L31_S1_R1
+[2018-12-19 02:40:28,562] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: Control_S5_R2
+[2018-12-19 02:40:28,564] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: A44_S2_R2
+[2018-12-19 02:40:28,565] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: Control_S5_R1
+[2018-12-19 02:40:28,567] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: cos2_S3_R2
+[2018-12-19 02:40:28,568] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: L31_S1_R2
+[2018-12-19 02:40:28,570] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: cos2_S3_R1
+[2018-12-19 02:40:28,571] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: A44_S2_R1
+[2018-12-19 02:40:28,573] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Duplicate sample name found! Overwriting: H22_S4_R2
+[2018-12-19 02:40:28,574] multiqc.modules.cutadapt.cutadapt                  [INFO   ]  Found 10 reports
+[2018-12-19 02:40:28,595] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2018-12-19 02:40:28,598] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2018-12-19 02:40:28,601] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2018-12-19 02:40:28,604] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2018-12-19 02:40:28,607] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2018-12-19 02:40:28,610] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2018-12-19 02:40:28,613] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2018-12-19 02:40:28,616] multiqc                                            [DEBUG  ]  No samples found: fastp
+[2018-12-19 02:40:29,517] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'A44_S2_R2_val_2_fastqc.zip' as already parsed 'A44_S2_R2_val_2'
+[2018-12-19 02:40:29,517] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'A44_S2_R1_val_1_fastqc.zip' as already parsed 'A44_S2_R1_val_1'
+[2018-12-19 02:40:29,517] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Control_S5_R1_val_1_fastqc.zip' as already parsed 'Control_S5_R1_val_1'
+[2018-12-19 02:40:29,517] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 10 reports
+[2018-12-19 02:40:30,208] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2018-12-19 02:40:30,211] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2018-12-19 02:40:30,214] multiqc                                            [DEBUG  ]  No samples found: interop
+[2018-12-19 02:40:30,229] multiqc                                            [INFO   ]  Compressing plot data
+[2018-12-19 02:40:30,920] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2018-12-19 02:40:30,920] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2018-12-19 02:40:30,920] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpi7EaHS/multiqc_data/multiqc_general_stats.txt' to '/home/rltillett/projects/projects_bieser/fastq_joined/multiqc_data'
+[2018-12-19 02:40:30,920] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpi7EaHS/multiqc_data/multiqc_fastqc.txt' to '/home/rltillett/projects/projects_bieser/fastq_joined/multiqc_data'
+[2018-12-19 02:40:30,921] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpi7EaHS/multiqc_data/multiqc_sources.txt' to '/home/rltillett/projects/projects_bieser/fastq_joined/multiqc_data'
+[2018-12-19 02:40:30,921] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpi7EaHS/multiqc_data/multiqc_data.json' to '/home/rltillett/projects/projects_bieser/fastq_joined/multiqc_data'
+[2018-12-19 02:40:30,921] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpi7EaHS/multiqc_data/multiqc_cutadapt.txt' to '/home/rltillett/projects/projects_bieser/fastq_joined/multiqc_data'
+[2018-12-19 02:40:31,018] multiqc                                            [INFO   ]  MultiQC complete

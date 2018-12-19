@@ -1,0 +1,133 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: cos2_S3_R2_val_2.fq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.5.0
+Cutadapt version: 1.18
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'GGGGGGGGGGGGGGGGGG' ()
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 36 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a GGGGGGGGGGGGGGGGGG cos2_S3_R2_val_2.fq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 833.67 s (25 us/read; 2.43 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              33,736,707
+Reads with adapters:                 7,522,610 (22.3%)
+Reads written (passing filters):    33,736,707 (100.0%)
+
+Total basepairs processed: 2,523,868,849 bp
+Quality-trimmed:               2,681,612 bp (0.1%)
+Total written (filtered):  2,503,084,620 bp (99.2%)
+
+=== Adapter 1 ===
+
+Sequence: GGGGGGGGGGGGGGGGGG; Type: regular 3'; Length: 18; Trimmed: 7522610 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-18 bp: 1
+
+Bases preceding removed adapters:
+  A: 11.3%
+  C: 32.4%
+  G: 0.0%
+  T: 54.9%
+  none/other: 1.3%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	5111544	8434176.8	0	5111544
+2	1774565	2108544.2	0	1774565
+3	381209	527136.0	0	381209
+4	88039	131784.0	0	88039
+5	25190	32946.0	0	25190
+6	7864	8236.5	0	7864
+7	2586	2059.1	0	2586
+8	1058	514.8	0	1058
+9	699	128.7	0	699
+10	3295	32.2	1	418 2877
+11	2200	8.0	1	339 1861
+12	1636	2.0	1	288 1348
+13	1376	0.5	1	246 1130
+14	1107	0.1	1	219 888
+15	828	0.0	1	168 660
+16	691	0.0	1	147 544
+17	683	0.0	1	284 399
+18	684	0.0	1	283 401
+19	554	0.0	1	281 273
+20	459	0.0	1	238 221
+21	438	0.0	1	225 213
+22	415	0.0	1	246 169
+23	387	0.0	1	203 184
+24	407	0.0	1	202 205
+25	353	0.0	1	205 148
+26	358	0.0	1	202 156
+27	374	0.0	1	221 153
+28	363	0.0	1	211 152
+29	375	0.0	1	244 131
+30	348	0.0	1	216 132
+31	394	0.0	1	232 162
+32	358	0.0	1	217 141
+33	333	0.0	1	196 137
+34	315	0.0	1	204 111
+35	320	0.0	1	201 119
+36	1358	0.0	1	1227 131
+37	1317	0.0	1	1140 177
+38	1225	0.0	1	1103 122
+39	1262	0.0	1	1095 167
+40	1213	0.0	1	1064 149
+41	1146	0.0	1	1005 141
+42	1124	0.0	1	996 128
+43	1071	0.0	1	944 127
+44	1182	0.0	1	1043 139
+45	1116	0.0	1	994 122
+46	1087	0.0	1	965 122
+47	1032	0.0	1	906 126
+48	1063	0.0	1	955 108
+49	1099	0.0	1	986 113
+50	1114	0.0	1	1009 105
+51	1142	0.0	1	1039 103
+52	1160	0.0	1	1065 95
+53	1290	0.0	1	1199 91
+54	1254	0.0	1	1159 95
+55	1258	0.0	1	1157 101
+56	1329	0.0	1	1225 104
+57	1436	0.0	1	1343 93
+58	1538	0.0	1	1477 61
+59	1667	0.0	1	1596 71
+60	1537	0.0	1	1472 65
+61	1542	0.0	1	1443 99
+62	1513	0.0	1	1425 88
+63	1272	0.0	1	1185 87
+64	1200	0.0	1	1121 79
+65	1090	0.0	1	987 103
+66	991	0.0	1	895 96
+67	883	0.0	1	795 88
+68	883	0.0	1	787 96
+69	865	0.0	1	751 114
+70	987	0.0	1	845 142
+71	1117	0.0	1	939 178
+72	1417	0.0	1	1227 190
+73	2113	0.0	1	1849 264
+74	4046	0.0	1	3643 403
+75	7572	0.0	1	7016 556
+76	52294	0.0	1	51287 1007
+
+
+RUN STATISTICS FOR INPUT FILE: cos2_S3_R2_val_2.fq.gz
+=============================================
+33736707 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 33736707
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (36 bp): 131762 (0.39%)

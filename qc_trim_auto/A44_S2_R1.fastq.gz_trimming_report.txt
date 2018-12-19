@@ -1,0 +1,131 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: A44_S2_R1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.5.0
+Cutadapt version: 1.18
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 36 bp
+Removing Ns from the start and end of reads
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 --trim-n -a AGATCGGAAGAGC A44_S2_R1.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 375.22 s (19 us/read; 3.15 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              19,671,500
+Reads with adapters:                 3,484,122 (17.7%)
+Reads written (passing filters):    19,671,500 (100.0%)
+
+Total basepairs processed: 1,485,518,869 bp
+Quality-trimmed:              31,495,870 bp (2.1%)
+Total written (filtered):  1,440,922,724 bp (97.0%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 3484122 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 39.3%
+  C: 21.0%
+  G: 13.1%
+  T: 23.0%
+  none/other: 3.6%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	2854950	4917875.0	0	2854950
+2	262588	1229468.8	0	262588
+3	195768	307367.2	0	195768
+4	35622	76841.8	0	35622
+5	5909	19210.4	0	5909
+6	1501	4802.6	0	1501
+7	182	1200.7	0	182
+8	43	300.2	0	43
+9	100	75.0	0	24 76
+10	165	18.8	1	7 158
+11	158	4.7	1	12 146
+12	77	1.2	1	12 65
+13	33	0.3	1	4 29
+14	39	0.3	1	3 36
+15	31	0.3	1	3 28
+16	52	0.3	1	4 48
+17	48	0.3	1	2 46
+18	43	0.3	1	6 37
+19	46	0.3	1	3 43
+20	43	0.3	1	4 39
+21	46	0.3	1	5 41
+22	38	0.3	1	3 35
+23	41	0.3	1	6 35
+24	35	0.3	1	1 34
+25	53	0.3	1	5 48
+26	49	0.3	1	7 42
+27	43	0.3	1	1 42
+28	44	0.3	1	9 35
+29	30	0.3	1	7 23
+30	22	0.3	1	4 18
+31	58	0.3	1	8 50
+32	40	0.3	1	2 38
+33	40	0.3	1	3 37
+34	58	0.3	1	7 51
+35	41	0.3	1	3 38
+36	152	0.3	1	9 143
+37	183	0.3	1	7 176
+38	400	0.3	1	1 399
+39	1881	0.3	1	7 1874
+40	1469	0.3	1	2 1467
+41	2066	0.3	1	3 2063
+42	366	0.3	1	6 360
+43	308	0.3	1	6 302
+44	132	0.3	1	2 130
+45	490	0.3	1	0 490
+46	201	0.3	1	1 200
+47	79	0.3	1	0 79
+48	287	0.3	1	2 285
+49	88	0.3	1	0 88
+50	51	0.3	1	0 51
+51	226	0.3	1	0 226
+52	177	0.3	1	1 176
+53	67	0.3	1	0 67
+54	59	0.3	1	0 59
+55	34	0.3	1	0 34
+56	71	0.3	1	0 71
+57	38	0.3	1	0 38
+58	37	0.3	1	1 36
+59	34	0.3	1	0 34
+60	24	0.3	1	0 24
+61	25	0.3	1	0 25
+62	39	0.3	1	0 39
+63	29	0.3	1	0 29
+64	24	0.3	1	0 24
+65	27	0.3	1	0 27
+66	49	0.3	1	1 48
+67	133	0.3	1	0 133
+68	722	0.3	1	1 721
+69	7591	0.3	1	0 7591
+70	16935	0.3	1	0 16935
+71	20051	0.3	1	2 20049
+72	17652	0.3	1	0 17652
+73	6942	0.3	1	0 6942
+74	2666	0.3	1	0 2666
+75	2660	0.3	1	1 2659
+76	41621	0.3	1	2 41619
+
+
+RUN STATISTICS FOR INPUT FILE: A44_S2_R1.fastq.gz
+=============================================
+19671500 sequences processed in total
+

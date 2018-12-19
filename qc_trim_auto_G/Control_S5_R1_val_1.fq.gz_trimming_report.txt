@@ -1,0 +1,130 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: Control_S5_R1_val_1.fq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.5.0
+Cutadapt version: 1.18
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'GGGGGGGGGGGGGGGGGG' ()
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 36 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a GGGGGGGGGGGGGGGGGG Control_S5_R1_val_1.fq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 578.47 s (22 us/read; 2.67 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              25,787,116
+Reads with adapters:                 4,991,569 (19.4%)
+Reads written (passing filters):    25,787,116 (100.0%)
+
+Total basepairs processed: 1,911,516,573 bp
+Quality-trimmed:               3,175,151 bp (0.2%)
+Total written (filtered):  1,880,716,653 bp (98.4%)
+
+=== Adapter 1 ===
+
+Sequence: GGGGGGGGGGGGGGGGGG; Type: regular 3'; Length: 18; Trimmed: 4991569 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-18 bp: 1
+
+Bases preceding removed adapters:
+  A: 36.3%
+  C: 40.1%
+  G: 0.0%
+  T: 22.4%
+  none/other: 1.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	3230890	6446779.0	0	3230890
+2	962083	1611694.8	0	962083
+3	306651	402923.7	0	306651
+4	67205	100730.9	0	67205
+5	18853	25182.7	0	18853
+6	5924	6295.7	0	5924
+7	1767	1573.9	0	1767
+8	482	393.5	0	482
+9	261	98.4	0	261
+10	1412	24.6	1	196 1216
+11	873	6.1	1	152 721
+12	611	1.5	1	122 489
+13	501	0.4	1	130 371
+14	382	0.1	1	105 277
+15	309	0.0	1	70 239
+16	224	0.0	1	63 161
+17	234	0.0	1	112 122
+18	205	0.0	1	103 102
+19	195	0.0	1	112 83
+20	166	0.0	1	107 59
+21	131	0.0	1	92 39
+22	150	0.0	1	101 49
+23	168	0.0	1	105 63
+24	145	0.0	1	95 50
+25	117	0.0	1	76 41
+26	123	0.0	1	86 37
+27	134	0.0	1	98 36
+28	135	0.0	1	85 50
+29	144	0.0	1	110 34
+30	129	0.0	1	86 43
+31	143	0.0	1	114 29
+32	123	0.0	1	92 31
+33	136	0.0	1	108 28
+34	131	0.0	1	106 25
+35	26417	0.0	1	26363 54
+36	20160	0.0	1	20095 65
+37	24298	0.0	1	24253 45
+38	19422	0.0	1	19377 45
+39	19906	0.0	1	19860 46
+40	17485	0.0	1	17436 49
+41	15337	0.0	1	15305 32
+42	11070	0.0	1	11037 33
+43	13047	0.0	1	13013 34
+44	10762	0.0	1	10744 18
+45	9351	0.0	1	9314 37
+46	6999	0.0	1	6975 24
+47	6113	0.0	1	6092 21
+48	4970	0.0	1	4947 23
+49	3941	0.0	1	3923 18
+50	3322	0.0	1	3304 18
+51	3567	0.0	1	3547 20
+52	3634	0.0	1	3618 16
+53	3423	0.0	1	3401 22
+54	3397	0.0	1	3377 20
+55	2995	0.0	1	2977 18
+56	2428	0.0	1	2406 22
+57	2206	0.0	1	2186 20
+58	2190	0.0	1	2174 16
+59	2048	0.0	1	2030 18
+60	1954	0.0	1	1931 23
+61	2050	0.0	1	2037 13
+62	2082	0.0	1	2061 21
+63	2278	0.0	1	2262 16
+64	2072	0.0	1	2058 14
+65	1872	0.0	1	1856 16
+66	1453	0.0	1	1437 16
+67	1273	0.0	1	1244 29
+68	1173	0.0	1	1144 29
+69	1340	0.0	1	1282 58
+70	2080	0.0	1	2001 79
+71	5998	0.0	1	5821 177
+72	11520	0.0	1	11201 319
+73	20090	0.0	1	19545 545
+74	35146	0.0	1	34160 986
+75	32508	0.0	1	32037 471
+76	27055	0.0	1	27000 55
+
+
+RUN STATISTICS FOR INPUT FILE: Control_S5_R1_val_1.fq.gz
+=============================================
+25787116 sequences processed in total
+
