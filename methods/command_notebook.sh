@@ -116,6 +116,7 @@ pigz -v -p 2 *.fastq
 ls -lh
 
 ######## Building Drosophila reference
+### From flybase
 cd $bieserHome
 mkdir -p ref_genome/dna
 mkdir -p ref_genome/gff
@@ -139,7 +140,19 @@ wget   ftp://ftp.flybase.net/genomes/Drosophila_melanogaster/dmel_r6.24_FB2018_0
 
 ####### What's in those GFFs?
 
-####### QC
+
+#######################
+## Alternatively, from Ensembl (BDGP6)
+##
+## TODO:add documentation here
+## ENSEMBL REF WAS DOWNLOADED AND USED
+##
+#######################
+
+
+
+
+####### Library QC
 cd $bieserHome/fastq_joined
 fastqc -t 10 *.gz -o ../qc_joined
 
@@ -181,55 +194,52 @@ for myforcelist in `ls *R1_val_1.fq.gz`; do
 done
 
 
-A44_S2_R1_val_1_val_1.fq.gz  Control_S5_R1_val_1_val_1.fq.gz  cos2_S3_R1_val_1_val_1.fq.gz  H22_S4_R1_val_1_val_1.fq.gz  L31_S1_R1_val_1_val_1.fq.gz
-
+## Aligning trim_auto_G sequences to Ensembl genome with bwa mem
 srun -c 9 --mem 6000 --time 480 bwa mem -t 8 \
 -o sam_bwa_mem/A44.sam \
 ref_genome/Ensembl_BDGP6/Drosophila_melanogaster.BDGP6.dna.toplevel.fa.gz \
 fastq_trim_auto_G/A44_S2_R1_val_1_val_1.fq.gz \
 fastq_trim_auto_G/A44_S2_R2_val_2_val_2.fq.gz &> A44.bwa.log &
-
 srun -c 9 --mem 6000 --time 480 bwa mem -t 8 \
 -o sam_bwa_mem/Control.sam \
 ref_genome/Ensembl_BDGP6/Drosophila_melanogaster.BDGP6.dna.toplevel.fa.gz \
 fastq_trim_auto_G/Control_S5_R1_val_1_val_1.fq.gz \
 fastq_trim_auto_G/Control_S5_R2_val_2_val_2.fq.gz &> Control.bwa.log &
-
 srun -c 9 --mem 6000 --time 480 bwa mem -t 8 \
 -o sam_bwa_mem/cos2.sam \
 ref_genome/Ensembl_BDGP6/Drosophila_melanogaster.BDGP6.dna.toplevel.fa.gz \
 fastq_trim_auto_G/cos2_S3_R1_val_1_val_1.fq.gz \
 fastq_trim_auto_G/cos2_S3_R2_val_2_val_2.fq.gz &> cos2.bwa.log &
-
 srun -c 9 --mem 6000 --time 480 bwa mem -t 8 \
 -o sam_bwa_mem/H22.sam \
 ref_genome/Ensembl_BDGP6/Drosophila_melanogaster.BDGP6.dna.toplevel.fa.gz \
 fastq_trim_auto_G/H22_S4_R1_val_1_val_1.fq.gz \
 fastq_trim_auto_G/H22_S4_R2_val_2_val_2.fq.gz &> H22.bwa.log &
-
 srun -c 9 --mem 6000 --time 480 bwa mem -t 8 \
 -o sam_bwa_mem/L31.sam \
 ref_genome/Ensembl_BDGP6/Drosophila_melanogaster.BDGP6.dna.toplevel.fa.gz \
 fastq_trim_auto_G/L31_S1_R1_val_1_val_1.fq.gz \
 fastq_trim_auto_G/L31_S1_R2_val_2_val_2.fq.gz &> L31.bwa.log &
 
+### Converting sam to bam
 cd sam_bwa_mem
 for i in A44 Control cos2 H22 L31; do
   srun -c 9 --mem 6000 --time 480 samtools view -@8 -b -o $i.bam $i.sam &
 done
-
+### Sorting bam file
 for i in A44 Control cos2 H22 L31; do
   srun -c 9 --mem 8000 --time 480 samtools sort -@8 -o $i.sort.bam $i.bam &
 done
-
+### Removing (PCR) duplicates
 for i in A44 Control cos2 H22 L31; do
   srun -c 5 --mem 8000 --time 480 samtools rmdup -S $i.sort.bam $i.rmdup.sort.bam &
 done
-
+### Indexing the deduplicated reads
 for i in A44 Control cos2 H22 L31; do
   srun -c 9 --mem 8000 --time 120 samtools index -@8 $i.rmdup.sort.bam &
 done
 
+### Mpileup to make first VCFs for samples
 ## this for loop runs as a separate script that gets invoked like:
 ## srun -c 10 --mem 24000 --time 130 bash pileupscript.sh &
 for i in Control A44 cos2 H22 L31; do
@@ -238,7 +248,7 @@ bcftools mpileup -Q 30 -C 50 -P Illumina \
 ${i}.rmdup.sort.bam | bcftools call -c -Ov -v -V 'indels' \
 -o ${i}.calls.vcf &
 done
-
+###
 ## this for loop also runs as a separate script that gets invoked like:
 ## srun -c 10 --mem 24000 --time 130 bash callscript.sh &
 ## (and only after the pileup script finishes successfully)

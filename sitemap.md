@@ -1,7 +1,4 @@
-# ems_methods_dmel
-EMS analysis methods
-
-## Static site map of sorts?
+# Static site map of sorts?
 
 * qc_trim_auto
   * [qc_trim_auto/multiqc_report.html](qc_trim_auto/multiqc_report.html)
