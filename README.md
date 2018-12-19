@@ -1,81 +1,38 @@
-# ems_methods_dmel
-EMS analysis methods
+## Welcome to GitHub Pages
 
-## Static site map of sorts?
+You can use the [editor on GitHub](https://github.com/rltillett/ems_methods_dmel/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-* qc_trim_auto
-  * [qc_trim_auto/multiqc_report.html](qc_trim_auto/multiqc_report.html)
-  * [qc_trim_auto/multiqc_data](qc_trim_auto/multiqc_data)
-  * [qc_trim_auto/multiqc_data/multiqc.log](qc_trim_auto/multiqc_data/multiqc.log)
-  * [qc_trim_auto/H22_S4_R1_val_1_fastqc.html](qc_trim_auto/H22_S4_R1_val_1_fastqc.html)
-  * [qc_trim_auto/Control_S5_R2_val_2_fastqc.html](qc_trim_auto/Control_S5_R2_val_2_fastqc.html)
-  * [qc_trim_auto/Control_S5_R1_val_1_fastqc.html](qc_trim_auto/Control_S5_R1_val_1_fastqc.html)
-  * [qc_trim_auto/H22_S4_R2_val_2_fastqc.html](qc_trim_auto/H22_S4_R2_val_2_fastqc.html)
-  * [qc_trim_auto/A44_S2_R2_val_2_fastqc.html](qc_trim_auto/A44_S2_R2_val_2_fastqc.html)
-  * [qc_trim_auto/A44_S2_R1_val_1_fastqc.html](qc_trim_auto/A44_S2_R1_val_1_fastqc.html)
-  * [qc_trim_auto/cos2_S3_R1_val_1_fastqc.html](qc_trim_auto/cos2_S3_R1_val_1_fastqc.html)
-  * [qc_trim_auto/L31_S1_R2_val_2_fastqc.html](qc_trim_auto/L31_S1_R2_val_2_fastqc.html)
-  * [qc_trim_auto/L31_S1_R1_val_1_fastqc.html](qc_trim_auto/L31_S1_R1_val_1_fastqc.html)
-  * [qc_trim_auto/cos2_S3_R2_val_2_fastqc.html](qc_trim_auto/cos2_S3_R2_val_2_fastqc.html)
-* qc_trim_force
-  * [qc_trim_force/multiqc_report.html](qc_trim_force/multiqc_report.html)
-  * [qc_trim_force/multiqc_data](qc_trim_force/multiqc_data)
-  * [qc_trim_force/multiqc_data/multiqc.log](qc_trim_force/multiqc_data/multiqc.log)
-  * [qc_trim_force/H22_S4_R1_val_1_fastqc.html](qc_trim_force/H22_S4_R1_val_1_fastqc.html)
-  * [qc_trim_force/Control_S5_R2_val_2_fastqc.html](qc_trim_force/Control_S5_R2_val_2_fastqc.html)
-  * [qc_trim_force/Control_S5_R1_val_1_fastqc.html](qc_trim_force/Control_S5_R1_val_1_fastqc.html)
-  * [qc_trim_force/H22_S4_R2_val_2_fastqc.html](qc_trim_force/H22_S4_R2_val_2_fastqc.html)
-  * [qc_trim_force/A44_S2_R2_val_2_fastqc.html](qc_trim_force/A44_S2_R2_val_2_fastqc.html)
-  * [qc_trim_force/A44_S2_R1_val_1_fastqc.html](qc_trim_force/A44_S2_R1_val_1_fastqc.html)
-  * [qc_trim_force/cos2_S3_R1_val_1_fastqc.html](qc_trim_force/cos2_S3_R1_val_1_fastqc.html)
-  * [qc_trim_force/L31_S1_R2_val_2_fastqc.html](qc_trim_force/L31_S1_R2_val_2_fastqc.html)
-  * [qc_trim_force/L31_S1_R1_val_1_fastqc.html](qc_trim_force/L31_S1_R1_val_1_fastqc.html)
-  * [qc_trim_force/cos2_S3_R2_val_2_fastqc.html](qc_trim_force/cos2_S3_R2_val_2_fastqc.html)
-* qc_joined
-  * [qc_joined/multiqc_report.html](qc_joined/multiqc_report.html)
-  * [qc_joined/multiqc_data](qc_joined/multiqc_data)
-  * [qc_joined/multiqc_data/multiqc.log](qc_joined/multiqc_data/multiqc.log)
-  * [qc_joined/L31_S1_R1_fastqc.html](qc_joined/L31_S1_R1_fastqc.html)
-  * [qc_joined/Control_S5_R2_fastqc.html](qc_joined/Control_S5_R2_fastqc.html)
-  * [qc_joined/Control_S5_R1_fastqc.html](qc_joined/Control_S5_R1_fastqc.html)
-  * [qc_joined/L31_S1_R2_fastqc.html](qc_joined/L31_S1_R2_fastqc.html)
-  * [qc_joined/cos2_S3_R1_fastqc.html](qc_joined/cos2_S3_R1_fastqc.html)
-  * [qc_joined/A44_S2_R1_fastqc.html](qc_joined/A44_S2_R1_fastqc.html)
-  * [qc_joined/H22_S4_R2_fastqc.html](qc_joined/H22_S4_R2_fastqc.html)
-  * [qc_joined/A44_S2_R2_fastqc.html](qc_joined/A44_S2_R2_fastqc.html)
-  * [qc_joined/H22_S4_R1_fastqc.html](qc_joined/H22_S4_R1_fastqc.html)
-  * [qc_joined/cos2_S3_R2_fastqc.html](qc_joined/cos2_S3_R2_fastqc.html)
-* qc_trim_force_G
-  * [qc_trim_force_G/multiqc_report.html](qc_trim_force_G/multiqc_report.html)
-  * [qc_trim_force_G/L31_S1_R1_val_1_val_1_fastqc.html](qc_trim_force_G/L31_S1_R1_val_1_val_1_fastqc.html)
-  * [qc_trim_force_G/multiqc_data](qc_trim_force_G/multiqc_data)
-  * [qc_trim_force_G/multiqc_data/multiqc.log](qc_trim_force_G/multiqc_data/multiqc.log)
-  * [qc_trim_force_G/A44_S2_R2_val_2_val_2_fastqc.html](qc_trim_force_G/A44_S2_R2_val_2_val_2_fastqc.html)
-  * [qc_trim_force_G/A44_S2_R1_val_1_val_1_fastqc.html](qc_trim_force_G/A44_S2_R1_val_1_val_1_fastqc.html)
-  * [qc_trim_force_G/L31_S1_R2_val_2_val_2_fastqc.html](qc_trim_force_G/L31_S1_R2_val_2_val_2_fastqc.html)
-  * [qc_trim_force_G/H22_S4_R1_val_1_val_1_fastqc.html](qc_trim_force_G/H22_S4_R1_val_1_val_1_fastqc.html)
-  * [qc_trim_force_G/Control_S5_R2_val_2_val_2_fastqc.html](qc_trim_force_G/Control_S5_R2_val_2_val_2_fastqc.html)
-  * [qc_trim_force_G/cos2_S3_R1_val_1_val_1_fastqc.html](qc_trim_force_G/cos2_S3_R1_val_1_val_1_fastqc.html)
-  * [qc_trim_force_G/cos2_S3_R2_val_2_val_2_fastqc.html](qc_trim_force_G/cos2_S3_R2_val_2_val_2_fastqc.html)
-  * [qc_trim_force_G/H22_S4_R2_val_2_val_2_fastqc.html](qc_trim_force_G/H22_S4_R2_val_2_val_2_fastqc.html)
-  * [qc_trim_force_G/Control_S5_R1_val_1_val_1_fastqc.html](qc_trim_force_G/Control_S5_R1_val_1_val_1_fastqc.html)
-* qc_trim_auto_G
-  * [qc_trim_auto_G/multiqc_report.html](qc_trim_auto_G/multiqc_report.html)
-  * [qc_trim_auto_G/L31_S1_R1_val_1_val_1_fastqc.html](qc_trim_auto_G/L31_S1_R1_val_1_val_1_fastqc.html)
-  * [qc_trim_auto_G/multiqc_data](qc_trim_auto_G/multiqc_data)
-  * [qc_trim_auto_G/multiqc_data/multiqc.log](qc_trim_auto_G/multiqc_data/multiqc.log)
-  * [qc_trim_auto_G/A44_S2_R2_val_2_val_2_fastqc.html](qc_trim_auto_G/A44_S2_R2_val_2_val_2_fastqc.html)
-  * [qc_trim_auto_G/A44_S2_R1_val_1_val_1_fastqc.html](qc_trim_auto_G/A44_S2_R1_val_1_val_1_fastqc.html)
-  * [qc_trim_auto_G/L31_S1_R2_val_2_val_2_fastqc.html](qc_trim_auto_G/L31_S1_R2_val_2_val_2_fastqc.html)
-  * [qc_trim_auto_G/H22_S4_R1_val_1_val_1_fastqc.html](qc_trim_auto_G/H22_S4_R1_val_1_val_1_fastqc.html)
-  * [qc_trim_auto_G/Control_S5_R2_val_2_val_2_fastqc.html](qc_trim_auto_G/Control_S5_R2_val_2_val_2_fastqc.html)
-  * [qc_trim_auto_G/cos2_S3_R1_val_1_val_1_fastqc.html](qc_trim_auto_G/cos2_S3_R1_val_1_val_1_fastqc.html)
-  * [qc_trim_auto_G/cos2_S3_R2_val_2_val_2_fastqc.html](qc_trim_auto_G/cos2_S3_R2_val_2_val_2_fastqc.html)
-  * [qc_trim_auto_G/H22_S4_R2_val_2_val_2_fastqc.html](qc_trim_auto_G/H22_S4_R2_val_2_val_2_fastqc.html)
-  * [qc_trim_auto_G/Control_S5_R1_val_1_val_1_fastqc.html](qc_trim_auto_G/Control_S5_R1_val_1_val_1_fastqc.html)
-* methods
-  * [methods/command_notebook.sh](methods/command_notebook.sh)
-* strategies_ext
-  * [strategies_ext/diplomka_digital.pdf](strategies_ext/diplomka_digital.pdf)
-  * [strategies_ext/Javorka_artMAP.full.pdf](strategies_ext/Javorka_artMAP.full.pdf)
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rltillett/ems_methods_dmel/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
